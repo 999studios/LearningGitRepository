@@ -10,4 +10,5 @@
 
 @interface ViewController : UIViewController
 -(void)func1;
+-(void)function2;
 @end
