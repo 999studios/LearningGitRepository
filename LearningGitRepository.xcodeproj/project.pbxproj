@@ -18,6 +18,7 @@
 		A7384AFE17F596DE00AC0CEC /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = A7384AFD17F596DE00AC0CEC /* Default-568h@2x.png */; };
 		A7384B0117F596DE00AC0CEC /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = A7384AFF17F596DE00AC0CEC /* MainStoryboard.storyboard */; };
 		A7384B0417F596DE00AC0CEC /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = A7384B0317F596DE00AC0CEC /* ViewController.m */; };
+		C38D93B317F61C9A007BCDE2 /* TestViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = C38D93B217F61C9A007BCDE2 /* TestViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +38,8 @@
 		A7384B0017F596DE00AC0CEC /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		A7384B0217F596DE00AC0CEC /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		A7384B0317F596DE00AC0CEC /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		C38D93B117F61C9A007BCDE2 /* TestViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TestViewController.h; sourceTree = "<group>"; };
+		C38D93B217F61C9A007BCDE2 /* TestViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TestViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,6 +86,8 @@
 		A7384AED17F596DE00AC0CEC /* LearningGitRepository */ = {
 			isa = PBXGroup;
 			children = (
+				C38D93B117F61C9A007BCDE2 /* TestViewController.h */,
+				C38D93B217F61C9A007BCDE2 /* TestViewController.m */,
 				A7384AF617F596DE00AC0CEC /* AppDelegate.h */,
 				A7384AF717F596DE00AC0CEC /* AppDelegate.m */,
 				A7384AFF17F596DE00AC0CEC /* MainStoryboard.storyboard */,
@@ -175,6 +180,7 @@
 			files = (
 				A7384AF417F596DE00AC0CEC /* main.m in Sources */,
 				A7384AF817F596DE00AC0CEC /* AppDelegate.m in Sources */,
+				C38D93B317F61C9A007BCDE2 /* TestViewController.m in Sources */,
 				A7384B0417F596DE00AC0CEC /* ViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -298,6 +304,7 @@
 				A7384B0917F596DE00AC0CEC /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
